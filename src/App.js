@@ -37,7 +37,7 @@ export default class App extends React.Component {
 		}, 1000);
 
 
-		alert("Add your API KEY to constants folder to generate the page");
+	
     
 	fetch(constants.DEFAULT_URL)
 			.then(checkHttpStatus)
