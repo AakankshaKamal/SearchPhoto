@@ -3,7 +3,7 @@
 var express = require("express");
 var app = express();
 app.use(express.static("build"));
-var PORT = 9000;
+var PORT = process.env.PORT ||9000;
 app.listen(PORT, function(err) {
 	if (err) {
 		console.error("Server Error: " + err);

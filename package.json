@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    
   },
   "dependencies": {
+    "react-scripts": "0.9.5",
     "express": "^4.17.1",
     "react": "15.5.4",
     "react-addons-css-transition-group": "^15.6.2",
